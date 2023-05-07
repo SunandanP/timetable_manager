@@ -1,0 +1,13 @@
+C:/Users/sunan/StudioProjects/timetable_manager/build/windows/CMakeFiles/INSTALL.dir
+C:/Users/sunan/StudioProjects/timetable_manager/build/windows/CMakeFiles/ALL_BUILD.dir
+C:/Users/sunan/StudioProjects/timetable_manager/build/windows/CMakeFiles/ZERO_CHECK.dir
+C:/Users/sunan/StudioProjects/timetable_manager/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+C:/Users/sunan/StudioProjects/timetable_manager/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+C:/Users/sunan/StudioProjects/timetable_manager/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+C:/Users/sunan/StudioProjects/timetable_manager/build/windows/flutter/CMakeFiles/INSTALL.dir
+C:/Users/sunan/StudioProjects/timetable_manager/build/windows/runner/CMakeFiles/timetable_manager.dir
+C:/Users/sunan/StudioProjects/timetable_manager/build/windows/runner/CMakeFiles/INSTALL.dir
+C:/Users/sunan/StudioProjects/timetable_manager/build/windows/runner/CMakeFiles/ALL_BUILD.dir
+C:/Users/sunan/StudioProjects/timetable_manager/build/windows/plugins/printing/CMakeFiles/printing_plugin.dir
+C:/Users/sunan/StudioProjects/timetable_manager/build/windows/plugins/printing/CMakeFiles/INSTALL.dir
+C:/Users/sunan/StudioProjects/timetable_manager/build/windows/plugins/printing/CMakeFiles/ALL_BUILD.dir

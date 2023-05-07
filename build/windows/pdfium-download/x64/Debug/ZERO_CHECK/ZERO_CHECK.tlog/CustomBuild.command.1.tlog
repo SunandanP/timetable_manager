@@ -1,0 +1,10 @@
+^C:\USERS\SUNAN\STUDIOPROJECTS\TIMETABLE_MANAGER\BUILD\WINDOWS\PDFIUM-DOWNLOAD\CMAKEFILES\4FCBE2797230417773ACCCC2F6D46D55\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/sunan/StudioProjects/timetable_manager/build/windows/pdfium-download -BC:/Users/sunan/StudioProjects/timetable_manager/build/windows/pdfium-download --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/sunan/StudioProjects/timetable_manager/build/windows/pdfium-download/pdfium-download.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

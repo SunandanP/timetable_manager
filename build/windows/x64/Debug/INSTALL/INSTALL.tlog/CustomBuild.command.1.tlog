@@ -1,0 +1,10 @@
+^C:\USERS\SUNAN\STUDIOPROJECTS\TIMETABLE_MANAGER\BUILD\WINDOWS\CMAKEFILES\02E66BC91DB783353BAC1C8465E9E35A\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/sunan/StudioProjects/timetable_manager/build/windows/pdfium-download/CMakeFiles/pdfium-download"
+		},
+		{
+			"file" : "C:/Users/sunan/StudioProjects/timetable_manager/build/windows/pdfium-download/CMakeFiles/4fcbe2797230417773acccc2f6d46d55/pdfium-download.rule"
+		},
+		{
+			"file" : "C:/Users/sunan/StudioProjects/timetable_manager/build/windows/pdfium-download/CMakeFiles/50bdeed28d4c02f61b069b7f73c9fb9d/pdfium-download-complete.rule"
+		},
+		{
+			"file" : "C:/Users/sunan/StudioProjects/timetable_manager/build/windows/pdfium-download/CMakeFiles/bdf86e17fc0ee7a3a49be0326bb391fc/pdfium-download-build.rule"
+		},
+		{
+			"file" : "C:/Users/sunan/StudioProjects/timetable_manager/build/windows/pdfium-download/CMakeFiles/bdf86e17fc0ee7a3a49be0326bb391fc/pdfium-download-configure.rule"
+		},
+		{
+			"file" : "C:/Users/sunan/StudioProjects/timetable_manager/build/windows/pdfium-download/CMakeFiles/bdf86e17fc0ee7a3a49be0326bb391fc/pdfium-download-download.rule"
+		},
+		{
+			"file" : "C:/Users/sunan/StudioProjects/timetable_manager/build/windows/pdfium-download/CMakeFiles/bdf86e17fc0ee7a3a49be0326bb391fc/pdfium-download-install.rule"
+		},
+		{
+			"file" : "C:/Users/sunan/StudioProjects/timetable_manager/build/windows/pdfium-download/CMakeFiles/bdf86e17fc0ee7a3a49be0326bb391fc/pdfium-download-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/sunan/StudioProjects/timetable_manager/build/windows/pdfium-download/CMakeFiles/bdf86e17fc0ee7a3a49be0326bb391fc/pdfium-download-patch.rule"
+		},
+		{
+			"file" : "C:/Users/sunan/StudioProjects/timetable_manager/build/windows/pdfium-download/CMakeFiles/bdf86e17fc0ee7a3a49be0326bb391fc/pdfium-download-test.rule"
+		},
+		{
+			"file" : "C:/Users/sunan/StudioProjects/timetable_manager/build/windows/pdfium-download/CMakeFiles/bdf86e17fc0ee7a3a49be0326bb391fc/pdfium-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pdfium-download"
+		],
+		"name" : "pdfium-download"
+	}
+}
