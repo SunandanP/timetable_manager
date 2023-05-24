@@ -82,8 +82,8 @@ class _DepartmentTimetableState extends State<DepartmentTimetable> {
                     ],
                   ),
                 ),
-                AllocationCard(day: "SE A", alloctions: monday),
-                AllocationCard(day: "SE B", alloctions: monday),
+                AllocationCard(day: "SE-A", alloctions: monday),
+                AllocationCard(day: "SE-B", alloctions: monday),
                 AllocationCard(day: "TE", alloctions: monday),
                 AllocationCard(day: "BE", alloctions: monday),
 

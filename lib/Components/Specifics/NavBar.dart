@@ -1,3 +1,5 @@
+import 'package:timetable_manager/Data.dart';
+
 import '../Timetables/ClassTimetable.dart';
 import '../Timetables/DepartmentTimetable.dart';
 import '../Timetables/TeacherTimetable.dart';
@@ -9,6 +11,7 @@ import 'package:timetable_manager/Components/Input/Screens/InfraData.dart';
 class NavBar extends StatelessWidget {
   NavBar({Key? key, required this.page}) : super(key: key);
   int page = 0;
+  Data data = Data();
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +38,7 @@ class NavBar extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (BuildContext context) => ClassTimetable()));
+                        builder: (BuildContext context) => ClassTimetable(data: data,)));
                 page = 0;
                 print("page : $page");
               } else {
@@ -76,6 +79,7 @@ class NavBar extends StatelessWidget {
                     MaterialPageRoute(
                         builder: (BuildContext context) => TeacherTimetable(
                               teacherName: "SS",
+                              teacherPosition: 1,
                             )));
                 page = 2;
                 print("page : $page");

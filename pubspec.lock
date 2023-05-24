@@ -9,14 +9,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.3.7"
-  args:
-    dependency: transitive
-    description:
-      name: args
-      sha256: c372bb384f273f0c2a8aaaa226dad84dc27c8519a691b888725dec59518ad53a
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.4.1"
   async:
     dependency: transitive
     description:
@@ -57,14 +49,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.1"
-  cli_util:
-    dependency: transitive
-    description:
-      name: cli_util
-      sha256: b8db3080e59b2503ca9e7922c3df2072cf13992354d5e944074ffa836fba43b7
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.4.0"
   clock:
     dependency: transitive
     description:
@@ -81,14 +65,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.17.0"
-  console:
-    dependency: transitive
-    description:
-      name: console
-      sha256: e04e7824384c5b39389acdd6dc7d33f3efe6b232f6f16d7626f194f6a01ad69a
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.1.0"
   convert:
     dependency: transitive
     description:
@@ -160,14 +136,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  get_it:
-    dependency: transitive
-    description:
-      name: get_it
-      sha256: "43133b45f32f1d96bbaeb43ea35a50ce854981baa80f47c3e26ee2ad23bef113"
-      url: "https://pub.dev"
-    source: hosted
-    version: "7.5.0"
   http:
     dependency: transitive
     description:
@@ -240,22 +208,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.0"
-  msix:
-    dependency: "direct main"
-    description:
-      name: msix
-      sha256: "2b094025eb77940d2cea64ec2d1d918a6bf87ef4518eb9155def9a8855831bdc"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.11.1"
-  package_config:
-    dependency: transitive
-    description:
-      name: package_config
-      sha256: "1c5b77ccc91e4823a5af61ee74e6b972db1ef98c2ff5a18d3161c982a55448bd"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.0"
   path:
     dependency: transitive
     description:
@@ -312,14 +264,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.10.3"
-  pub_semver:
-    dependency: transitive
-    description:
-      name: pub_semver
-      sha256: "40d3ab1bbd474c4c2328c91e3a7df8c6dd629b79ece4c4bd04bee496a224fb0c"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.4"
   qr:
     dependency: transitive
     description:
@@ -413,14 +357,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.2.2"
-  yaml:
-    dependency: transitive
-    description:
-      name: yaml
-      sha256: "75769501ea3489fca56601ff33454fe45507ea3bfb014161abc3b43ae25989d5"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.1.2"
 sdks:
   dart: ">=2.19.2 <3.0.0"
   flutter: ">=3.7.0"

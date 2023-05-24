@@ -1,4 +1,6 @@
 import 'package:timetable_manager/Components/AllocationCard.dart';
+import 'package:timetable_manager/Data.dart';
+import 'package:timetable_manager/Logic/Allocation.dart';
 import 'package:flutter/material.dart';
 import '../LectureCard.dart';
 import '../Specifics/NavBar.dart';
@@ -9,6 +11,11 @@ import 'package:pdf/widgets.dart' as pw;
 import 'package:printing/printing.dart';
 
 class ClassTimetable extends StatefulWidget {
+
+  ClassTimetable({required this.data});
+  Data data;
+
+  List<List<Allocation>> alloc = [];
   @override
   State<StatefulWidget> createState() {
     return _ClassTimetableState();
@@ -40,7 +47,8 @@ class _ClassTimetableState extends State<ClassTimetable> {
   }
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
+    widget.data.fit();
+    widget.alloc = widget.data.getClassSchedules["SE-B"]!;
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: true),
@@ -57,7 +65,7 @@ class _ClassTimetableState extends State<ClassTimetable> {
             ),
             IconButton(onPressed: (){
               setState(() {
-
+                  widget.data.fit();
               });
             }, icon: Icon(Icons.refresh))
           ],
@@ -80,12 +88,11 @@ class _ClassTimetableState extends State<ClassTimetable> {
                     ],
                   ),
                 ),
-                AllocationCard(day: "Monday", alloctions: monday),
-                AllocationCard(day: "Tuesday", alloctions: monday),
-                AllocationCard(day: "Wednesday", alloctions: monday),
-                AllocationCard(day: "Thursday", alloctions: monday),
-                AllocationCard(day: "Friday", alloctions: monday),
-                AllocationCard(day: "Saturday", alloctions: monday),
+                AllocationCard(day: "Monday", alloctions: widget.alloc[0]),
+                AllocationCard(day: "Tuesday", alloctions: widget.alloc[1]),
+                AllocationCard(day: "Wednesday", alloctions: widget.alloc[2]),
+                AllocationCard(day: "Thursday", alloctions: widget.alloc[3]),
+                AllocationCard(day: "Friday", alloctions: widget.alloc[4]),
               ],
             ),
           ),

@@ -32,6 +32,36 @@ class LectureCard extends StatelessWidget {
   }
 }
 
+
+class TLectureCard extends StatelessWidget {
+  int flex;
+  String text;
+
+  TLectureCard({required this.flex, required this.text});
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      flex: flex,
+      child: Container(
+        margin: EdgeInsets.all(2),
+        child: Card(
+
+          margin: EdgeInsets.symmetric(horizontal: 3, vertical: 3),
+          elevation: 5,
+          child: Center(
+            heightFactor: 1.5,
+            widthFactor: text.length*0.63,
+            child: Text(
+              text,
+              style: const TextStyle(fontSize: 25),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
 class SlotCard extends StatelessWidget {
   int flex;
   String text;

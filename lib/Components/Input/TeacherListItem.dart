@@ -5,7 +5,7 @@ import 'package:timetable_manager/Components/Input/ModalExisting.dart';
 import 'package:timetable_manager/Logic/Subject.dart';
 
 class TeacherListItem extends StatefulWidget {
-   TeacherListItem({Key? key, this.no = 0, this.workingHours = 0, this.teacherName = "", this.sem = 1, this.subjectList = const ["","","",""]}) : super(key: key);
+   TeacherListItem({Key? key, this.no = 0, this.workingHours = 0, this.teacherName = "", this.sem = 1, this.subjectList = const ["SE A CG","TE AI","TE SEMINAR","BE BLOCKCHAIN"]}) : super(key: key);
   int no;
   String teacherName;
   int workingHours;
